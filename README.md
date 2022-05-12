@@ -1,4 +1,3 @@
-
 Start project
 
 ### `npm start`
