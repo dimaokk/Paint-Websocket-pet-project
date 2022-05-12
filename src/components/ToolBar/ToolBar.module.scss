@@ -1,0 +1,17 @@
+@import "../../styles/variables.scss";
+
+.toolbar {
+  height: $bar-height;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  border-bottom: 1px solid black;
+}
+
+.toolbarBtn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}

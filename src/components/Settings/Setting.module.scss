@@ -1,0 +1,12 @@
+@import "../../styles/variables.scss";
+
+.setting {
+  height: $bar-height;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  box-shadow: 0 4px 5px rgb(208, 208, 208);
+  top: 40px;
+}
