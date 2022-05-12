@@ -2,7 +2,7 @@ import { observer } from "mobx-react-lite";
 import React, { useEffect, useRef } from "react";
 import canvasState from "../../store/canvasState";
 import toolState from "../../store/toolState";
-import Brush from "../tool/Brush";
+import Brush from "../../tool/Brush";
 import styles from "./Canvas.module.scss";
 
 export const Canvas = observer(() => {

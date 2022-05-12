@@ -21,15 +21,15 @@
 }
 
 input[type="color"] {
-	-webkit-appearance: none;
-	border: none;
-	width: 35px;
-	height: 24px;
-    cursor: pointer;
+  -webkit-appearance: none;
+  border: none;
+  width: 35px;
+  height: 24px;
+  cursor: pointer;
 }
 input[type="color"]::-webkit-color-swatch-wrapper {
-	padding: 0;
+  padding: 0;
 }
 input[type="color"]::-webkit-color-swatch {
-	border: none;
+  border: none;
 }
