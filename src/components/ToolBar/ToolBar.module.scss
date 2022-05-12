@@ -5,13 +5,31 @@
   background-color: white;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   position: absolute;
   width: 100%;
   border-bottom: 1px solid black;
+  padding: 0 2rem;
+
+  &__btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+    outline: none;
+  }
 }
 
-.toolbarBtn {
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
+input[type="color"] {
+	-webkit-appearance: none;
+	border: none;
+	width: 35px;
+	height: 24px;
+    cursor: pointer;
+}
+input[type="color"]::-webkit-color-swatch-wrapper {
+	padding: 0;
+}
+input[type="color"]::-webkit-color-swatch {
+	border: none;
 }
