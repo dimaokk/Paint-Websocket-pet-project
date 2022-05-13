@@ -31,14 +31,30 @@ export const ToolBar = () => {
       <div className={styles.btnGroup}>
         <button
           className={styles.toolbar__btn}
-          onClick={() => toolState.setTool(new Brush(canvasState.canvas))}
+          onClick={() =>
+            toolState.setTool(
+              new Brush(
+                canvasState.canvas,
+                canvasState.soket,
+                canvasState.sessionid
+              )
+            )
+          }
         >
           <IoBrushOutline size={25} />
         </button>
 
         <button
           className={styles.toolbar__btn}
-          onClick={() => toolState.setTool(new Rectangle(canvasState.canvas))}
+          onClick={() =>
+            toolState.setTool(
+              new Rectangle(
+                canvasState.canvas,
+                canvasState.soket,
+                canvasState.sessionid
+              )
+            )
+          }
         >
           <IoSquare size={25} />
         </button>
