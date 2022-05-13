@@ -1,0 +1,23 @@
+@import "../../styles/variables.scss";
+
+.setting {
+  height: $bar-height;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  box-shadow: 0 4px 5px rgb(208, 208, 208);
+  top: 40px;
+  padding: 0 2rem;
+}
+
+.lable {
+  margin-right: 10px;
+}
+
+.setting_tool {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
