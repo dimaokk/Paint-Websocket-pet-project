@@ -11,3 +11,6 @@ cd server
 ### `npm i`
 
 ### `npm run dev`
+
+
+copy your link and share your friends. 
