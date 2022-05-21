@@ -1,3 +1,5 @@
+Application completion 60%
+
 Start project
 
 cd client
