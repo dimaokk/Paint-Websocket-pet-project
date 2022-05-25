@@ -1,5 +1,5 @@
 Application completion 60%
-In the near future - add more tools, TS, redesign, 
+In the near future - add more tools, TS, redesign, realtime chat and mb voice chat
 
 Start project
 
