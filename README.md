@@ -1,4 +1,5 @@
 Application completion 60%
+In the near future - add more tools, TS, redesign, 
 
 Start project
 
@@ -14,5 +15,4 @@ cd server
 
 ### `npm run dev`
 
-
-copy your link and share your friends. 
+copy your link and . 
